@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule, RouterOutlet } from '@angular/router';
 import { MainnavComponent } from './partials/mainnav/mainnav';
 
 @Component({
@@ -11,3 +11,4 @@ import { MainnavComponent } from './partials/mainnav/mainnav';
 export class App {
   protected readonly title = signal('moment3_dt208g');
 }
+

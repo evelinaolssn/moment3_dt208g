@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(165, 217, 249);
+}
+
+main {
+    max-width: 900px;
+    background-color: aliceblue;
+    color: rgb(46, 45, 45);
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+header {
+    background-color: rgb(51, 73, 94);
+    color: aliceblue;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(51, 73, 94);
+    color: aliceblue;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+
