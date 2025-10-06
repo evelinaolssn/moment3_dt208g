@@ -19,3 +19,11 @@ Syftet är att få en grundläggande förståelse för **Angular** och hur man b
 - Versionshantering med Git
 
 ## Slutsats
+
+När jag arbetade med uppgiften fick jag en bättre förståelse för hur Angular fungerar i praktiken. Till en början var det lite utmanande att förstå routing och hur standalone-komponenter skulle användas, men när jag väl fick igång det blev det tydligare hur allt hänger ihop.
+
+Jag stötte också på problem med databindning via ngModel eftersom jag inte hade importerat FormsModule. När detta löstes märkte jag hur viktigt det är att veta vilka moduler som måste importeras för olika funktioner. Samma sak gällde number-pipe som krävde CommonModule.
+
+En annan sak jag fokuserade på var hur man kan strukturera CSS på ett sätt som undviker upprepning. Jag arbetade både med global CSS i styles.css och lokal CSS i komponenterna, vilket gjorde det lättare att hålla ordning.
+
+Sammantaget gav uppgiften mig en tydligare bild av hur man bygger upp ett Angular-projekt från grunden och hur man löser problem som dyker upp längs vägen.
