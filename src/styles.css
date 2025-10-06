@@ -13,6 +13,7 @@ main {
     margin: 0 auto;
     border-radius: 4px;
     padding: 1rem;
+    padding-bottom: 85px;
 }
 
 header {
@@ -37,6 +38,7 @@ footer {
     color: aliceblue;
     padding: 1rem;
     width: 100%;
+    max-width: 100%;
 }
 
 
