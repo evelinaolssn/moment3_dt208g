@@ -1,1 +1,15 @@
-<h2>Konverterare</h2>
+<section class="converter">
+    <h2>Konverterare</h2>
+
+    <div class="converter-section">
+        <h3>Meter till Feet</h3>
+        <input type="number" [(ngModel)]="meters" placeholder="Ange meter">
+        <p>{{ meters }} meter = {{ meters * 3.2808 | number:'1.2-2' }} feet</p>
+    </div>
+
+    <div class="converter-section">
+        <h3>Celsius till Fahrenheit</h3>
+        <input type="number" [(ngModel)]="celsius" placeholder="Ange °C">
+        <p>{{ celsius }} °C = {{ (celsius * 9/5) + 32 | number:'1.1-1' }} °F</p>
+    </div>
+</section>
